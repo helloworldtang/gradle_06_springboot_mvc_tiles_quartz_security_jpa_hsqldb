@@ -1,0 +1,11 @@
+包括了:
+ gradle
+ spring boot
+ spring security
+ spring mvc
+ spring quartz
+ spring tiles
+ 
+ 
+security：注意事项，所有的角色(String)都是以"ROLE_"做前缀的，
+	为什么呢，因为权限谁是由RoleVoter(投票器)来判断的，而RoleVoter规定了前缀是由"	ROLE_" 
